@@ -141,6 +141,12 @@ ul {
     fill: var(--accent-color);
 }
 
+.contacts-icon {
+    margin-right: 10px;
+    fill: var(--secondary-text-color);
+}
+
+
 
 /*=============== Hero ================*/
 
@@ -208,10 +214,14 @@ ul {
     justify-content: space-between;
 }
 
-.advantage-icon {
-    padding: 25px 100px 25px 100px;
-    margin-bottom: 30px;
+.advantage-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 270px;
     background-color: #F5F4FA;
+    margin-bottom: 30px;
 }
 
 .advantage-title {
